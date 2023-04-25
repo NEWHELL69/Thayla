@@ -1,0 +1,584 @@
+@charset "UTF-8";
+/**
+ * BASE SIZE
+ * All calculations are based on this. It’s recommended that
+ * you keep it at 1rem because that is the root font size. You
+ * can set it to whatever you like and whatever unit you like.
+ */
+/**
+ * SIZE SCALE
+ * This is a Perfect Fourth scale that powers all the utilities that
+ * it is relevant for (font-size, margin, padding). All items are
+ * calcuated off the base size, so change that and cascade across
+ * your whole project.
+ */
+/**
+ * COLORS
+ * Colors are shared between backgrounds and text by default. 
+ * You can also use them to power borders, fills or shadows, for example.
+ */
+/**
+ * CORE CONFIG
+ * This powers everything from utility class generation to breakpoints
+ * to enabling/disabling pre-built components/utilities.
+ */
+/* GORKO: auto-generated utility classes start */
+.bg-dark {
+  background: #38445b;
+}
+
+.bg-dark-shade {
+  background: #263147;
+}
+
+.bg-dark-glare {
+  background: #505c73;
+}
+
+.bg-light {
+  background: #efefef;
+}
+
+.bg-light-shade {
+  background: #fdfdfd;
+}
+
+.bg-light-glare {
+  background: #fdfbf3;
+}
+
+.bg-primary {
+  background: #513aa6;
+}
+
+.color-dark {
+  color: #38445b;
+}
+
+.color-dark-shade {
+  color: #263147;
+}
+
+.color-dark-glare {
+  color: #505c73;
+}
+
+.color-light {
+  color: #efefef;
+}
+
+.color-light-shade {
+  color: #fdfdfd;
+}
+
+.color-light-glare {
+  color: #fdfbf3;
+}
+
+.color-primary {
+  color: #513aa6;
+}
+
+.flow-space-300 {
+  --flow-space: 0.75rem;
+}
+
+.flow-space-400 {
+  --flow-space: 1rem;
+}
+
+.flow-space-500 {
+  --flow-space: 1.33rem;
+}
+
+.flow-space-600 {
+  --flow-space: 1.77rem;
+}
+
+.flow-space-700 {
+  --flow-space: 2.36rem;
+}
+
+.flow-space-800 {
+  --flow-space: 3.15rem;
+}
+
+.flow-space-900 {
+  --flow-space: 4.2rem;
+}
+
+.flow-space-major {
+  --flow-space: 5.6rem;
+}
+
+.font-base {
+  font-family: sans-serif;
+}
+
+.font-sans {
+  font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.gap-top-300 {
+  margin-top: 0.75rem;
+}
+
+.gap-top-400 {
+  margin-top: 1rem;
+}
+
+.gap-top-500 {
+  margin-top: 1.33rem;
+}
+
+.gap-top-600 {
+  margin-top: 1.77rem;
+}
+
+.gap-top-700 {
+  margin-top: 2.36rem;
+}
+
+.gap-top-800 {
+  margin-top: 3.15rem;
+}
+
+.gap-top-900 {
+  margin-top: 4.2rem;
+}
+
+.gap-top-major {
+  margin-top: 5.6rem;
+}
+
+.leading-loose {
+  line-height: 1.7;
+}
+
+.leading-tight {
+  line-height: 1.3;
+}
+
+.leading-flat {
+  line-height: 1.1;
+}
+
+.measure-micro {
+  max-width: 10ch;
+}
+
+.measure-compact {
+  max-width: 30ch;
+}
+
+.measure-short {
+  max-width: 40ch;
+}
+
+.measure-long {
+  max-width: 65ch;
+}
+
+.text-300 {
+  font-size: 0.75rem;
+}
+
+.text-400 {
+  font-size: 1rem;
+}
+
+.text-500 {
+  font-size: 1.33rem;
+}
+
+.text-600 {
+  font-size: 1.77rem;
+}
+
+.text-700 {
+  font-size: 2.36rem;
+}
+
+.text-800 {
+  font-size: 3.15rem;
+}
+
+.text-900 {
+  font-size: 4.2rem;
+}
+
+.text-major {
+  font-size: 5.6rem;
+}
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.weight-bold {
+  font-weight: 900;
+}
+
+@media (min-width: 37em) {
+  .md\:flow-space-300 {
+    --flow-space: 0.75rem;
+  }
+  .md\:flow-space-400 {
+    --flow-space: 1rem;
+  }
+  .md\:flow-space-500 {
+    --flow-space: 1.33rem;
+  }
+  .md\:flow-space-600 {
+    --flow-space: 1.77rem;
+  }
+  .md\:flow-space-700 {
+    --flow-space: 2.36rem;
+  }
+  .md\:flow-space-800 {
+    --flow-space: 3.15rem;
+  }
+  .md\:flow-space-900 {
+    --flow-space: 4.2rem;
+  }
+  .md\:flow-space-major {
+    --flow-space: 5.6rem;
+  }
+  .md\:gap-top-300 {
+    margin-top: 0.75rem;
+  }
+  .md\:gap-top-400 {
+    margin-top: 1rem;
+  }
+  .md\:gap-top-500 {
+    margin-top: 1.33rem;
+  }
+  .md\:gap-top-600 {
+    margin-top: 1.77rem;
+  }
+  .md\:gap-top-700 {
+    margin-top: 2.36rem;
+  }
+  .md\:gap-top-800 {
+    margin-top: 3.15rem;
+  }
+  .md\:gap-top-900 {
+    margin-top: 4.2rem;
+  }
+  .md\:gap-top-major {
+    margin-top: 5.6rem;
+  }
+  .md\:measure-micro {
+    max-width: 10ch;
+  }
+  .md\:measure-compact {
+    max-width: 30ch;
+  }
+  .md\:measure-short {
+    max-width: 40ch;
+  }
+  .md\:measure-long {
+    max-width: 65ch;
+  }
+  .md\:text-300 {
+    font-size: 0.75rem;
+  }
+  .md\:text-400 {
+    font-size: 1rem;
+  }
+  .md\:text-500 {
+    font-size: 1.33rem;
+  }
+  .md\:text-600 {
+    font-size: 1.77rem;
+  }
+  .md\:text-700 {
+    font-size: 2.36rem;
+  }
+  .md\:text-800 {
+    font-size: 3.15rem;
+  }
+  .md\:text-900 {
+    font-size: 4.2rem;
+  }
+  .md\:text-major {
+    font-size: 5.6rem;
+  }
+}
+@media (min-width: 62em) {
+  .lg\:flow-space-300 {
+    --flow-space: 0.75rem;
+  }
+  .lg\:flow-space-400 {
+    --flow-space: 1rem;
+  }
+  .lg\:flow-space-500 {
+    --flow-space: 1.33rem;
+  }
+  .lg\:flow-space-600 {
+    --flow-space: 1.77rem;
+  }
+  .lg\:flow-space-700 {
+    --flow-space: 2.36rem;
+  }
+  .lg\:flow-space-800 {
+    --flow-space: 3.15rem;
+  }
+  .lg\:flow-space-900 {
+    --flow-space: 4.2rem;
+  }
+  .lg\:flow-space-major {
+    --flow-space: 5.6rem;
+  }
+  .lg\:gap-top-300 {
+    margin-top: 0.75rem;
+  }
+  .lg\:gap-top-400 {
+    margin-top: 1rem;
+  }
+  .lg\:gap-top-500 {
+    margin-top: 1.33rem;
+  }
+  .lg\:gap-top-600 {
+    margin-top: 1.77rem;
+  }
+  .lg\:gap-top-700 {
+    margin-top: 2.36rem;
+  }
+  .lg\:gap-top-800 {
+    margin-top: 3.15rem;
+  }
+  .lg\:gap-top-900 {
+    margin-top: 4.2rem;
+  }
+  .lg\:gap-top-major {
+    margin-top: 5.6rem;
+  }
+  .lg\:measure-micro {
+    max-width: 10ch;
+  }
+  .lg\:measure-compact {
+    max-width: 30ch;
+  }
+  .lg\:measure-short {
+    max-width: 40ch;
+  }
+  .lg\:measure-long {
+    max-width: 65ch;
+  }
+  .lg\:text-300 {
+    font-size: 0.75rem;
+  }
+  .lg\:text-400 {
+    font-size: 1rem;
+  }
+  .lg\:text-500 {
+    font-size: 1.33rem;
+  }
+  .lg\:text-600 {
+    font-size: 1.77rem;
+  }
+  .lg\:text-700 {
+    font-size: 2.36rem;
+  }
+  .lg\:text-800 {
+    font-size: 3.15rem;
+  }
+  .lg\:text-900 {
+    font-size: 4.2rem;
+  }
+  .lg\:text-major {
+    font-size: 5.6rem;
+  }
+}
+/* GORKO: auto-generated utility classes end */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+:root {
+  --flow-space: 1.77rem;
+}
+
+body {
+  background: #efefef;
+  color: #263147;
+  line-height: 1.5;
+  font-size: 1.33rem;
+  font-family: sans-serif;
+}
+
+a:not([class]) {
+  color: currentColor;
+}
+
+:focus {
+  outline: 2px dashed #513aa6;
+  outline-offset: 0.25rem;
+}
+
+main:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  font-family: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.1;
+}
+
+::selection {
+  color: #efefef;
+  background: rgba(38, 49, 71, 0.99);
+}
+
+::-webkit-scrollbar {
+  height: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: 1px solid #505c73;
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #38445b;
+  border-radius: 0.25rem;
+}
+
+.site-head {
+  position: fixed;
+  width: 50px;
+  background-color: red;
+  padding: 1.77rem 0;
+}
+.site-head__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-head__brand {
+  flex-shrink: 0;
+  margin-inline-end: 1.77rem;
+  transform: translateY(0.25rem);
+}
+.site-head__brand svg {
+  width: 100px;
+}
+.site-head__nav {
+  padding: 0.75rem 0;
+}
+@media (min-width: 37em) {
+  .site-head__brand svg {
+    width: 160px;
+  }
+}
+
+/**
+ * FLOW
+ * Applies a margin to sibling elements based on a --flow-space custom property.
+ */
+.flow > * + * {
+  margin-top: var(--flow-space, 1.77rem);
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+/**
+ * WRAPPER
+ * Sets a max width, adds a consisten gutter and horizontally
+ * centers the contents
+ */
+.wrapper {
+  max-width: 70rem;
+  padding: 0 1.33rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/*# sourceMappingURL=global.css.map */
