@@ -6,13 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ title }}</title>
 
-     <link rel="stylesheet" href="css/global.css">
+     <link rel="stylesheet" href="css/global.css"/>
+     <style>{% include "css/critical.css" %}</style>
   </head>
   <body>
     {% block content %}
         <p>
             Here is some placeholder content that will render if a template doesn't define a block.
-        </p>
+        </p>  
     {% endblock %}
+
+    <script src="/bundle.js"></script>
   </body>
 </html>
