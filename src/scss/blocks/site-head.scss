@@ -1,10 +1,7 @@
-:root {
-  --menu-main-width: 0;
-}
+$menu-bar-basis: 6rem;
+$menu-main-basis: 12rem;
 
 .menu {
-  $menu-bar-basis: 6rem;
-  $menu-main-basis: 12rem;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -19,6 +16,7 @@
     background-color: rebeccapurple;
     flex-basis: $menu-bar-basis;
     pointer-events: all;
+    flex-shrink: 0;
   }
 
   &__main {
@@ -37,11 +35,13 @@
 
 @include media-query('lg') {
   .menu {
+    width: auto;
     flex-direction: row-reverse;
     justify-content: flex-end;
     transform: translateX(-$menu-main-basis);
 
     &__main {
+      flex-shrink: 0;
       flex-grow: 0;
       flex-basis: $menu-main-basis;
     }
