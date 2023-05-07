@@ -3,6 +3,10 @@ module.exports = config => {
   config.setUseGitIgnore(false);
 
   config.addWatchTarget("./src/js/");
+  
+  config.addPassthroughCopy('./src/images/');
+  config.addPassthroughCopy('./src/fonts/');
+
 
   return {
     markdownTemplateEngine: 'njk',

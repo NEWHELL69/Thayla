@@ -1,24 +1,86 @@
 {
+    "categories": [
+        {
+            "text": "Men",
+            "url": "",
+            "items": [
+                {
+                    "text": "Belts",
+                    "url": ""
+                },
+                {
+                    "text": "Wallets",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "text": "Women",
+            "url": "",
+            "items": [
+                {
+                    "text": "Belts",
+                    "url": ""
+                },
+                {
+                    "text": "Wallets",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "text": "Bags",
+            "url": "",
+            "items": [
+                {
+                    "text": "Shoulder bags",
+                    "url": ""
+                },
+                {
+                    "text": "Laptop bags",
+                    "url": ""
+                },
+                {
+                    "text": "Travel bags",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "text": "Lifestyle essentials",
+            "url": "",
+            "items": [
+                {
+                    "text": "Cushions",
+                    "url": ""
+                },
+                {
+                    "text": "Frames",
+                    "url": ""
+                },
+                {
+                    "text": "Coasters",
+                    "url": ""
+                },
+                {
+                    "text": "Key rings",
+                    "url": ""                    
+                }
+            ]
+        }
+    ],  
     "items": [
         {
             "text": "Home",
-            "url": "/"
+            "url": ""
         },
         {
             "text": "About",
-            "url": "/about-us/"
-        },
-        {
-            "text": "Work",
-            "url": "/work/"
-        },
-        {
-            "text": "Blog",
-            "url": "/blog/"
+            "url": ""
         },
         {
             "text": "Contact",
-            "url": "/contact/"
+            "url": ""
         }
     ]
 }   

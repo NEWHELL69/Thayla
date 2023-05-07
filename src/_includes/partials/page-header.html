@@ -1,0 +1,49 @@
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Flickety -->
+
+<!-- {% set count = 1 %} -->
+<!-- -------------------------------------------------------------------------------------- -->
+
+{% set count = 1 %}
+
+<div class="pageHeader">
+    <div class="carousels-controller">
+        <p class="text-700">Genuine leather products</p>
+        <button id="carousel-toggle">
+            <img src="https://icongr.am/entypo/chevron-thin-up.svg?size=100&color=currentColor" alt="">
+        </button>
+        <p class="text-300" >Click to change</p>
+    </div>
+    <div class="carousels">
+        {% for carousel in pageHeader.carousels %}
+        <div class="carousel carousel{{ count }}">
+            <div class="carousel-inner carousel-inner-1">
+                {% for image in carousel %}
+                <div class="carousel-image">
+                    <img src={{image}} alt="">
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% set count = count+1 %}
+        {% endfor %}
+    </div>
+
+<!-- -------------------------------------------------------------------------------------- -->
+<!-- Flickety -->
+
+    <!-- <div class="carousels">
+        {% for carousel in pageHeader.carousels %}
+        <div class="main-carousel carousel{{ count }} carousel" data-flickity='{}'>
+            {% for image in carousel %}
+            <div class="carousel-cell">
+                <img src={{image}} alt="">
+            </div>
+            {% endfor %}
+        </div>
+        {% set count = count+1 %}
+        {% endfor %}
+    </div> -->
+<!-- -------------------------------------------------------------------------------------- -->
+</div>    
+

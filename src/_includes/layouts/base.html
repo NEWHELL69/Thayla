@@ -8,14 +8,16 @@
 
      <link rel="stylesheet" href="css/global.css"/>
      <style>{% include "css/critical.css" %}</style>
+     <!-- <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> -->
   </head>
-  <body>
+  <body class="font-base">
     {% block content %}
         <p>
             Here is some placeholder content that will render if a template doesn't define a block.
         </p>  
     {% endblock %}
 
+    <!-- <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> -->
     <script src="/bundle.js"></script>
   </body>
 </html>

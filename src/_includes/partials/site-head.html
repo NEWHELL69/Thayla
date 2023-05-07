@@ -1,7 +1,49 @@
+{% macro accordion(title, content) %}
+    <div class="accordion">
+        <details>
+            <summary>
+                <div class="title accordion__title">
+                    <h2 class="weight-normal"><a class="title__link text-500" href="#">{{ title }}</a></h2>
+                    <div class="caret title__caret">
+                        <svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 10 6">
+                            <path fillRule="evenodd" clipRule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+            </summary>
+            <div class="content accordion__content">{{ content }}</div>
+        </details>
+    </div> 
+{% endmacro %}
+
+{% macro accordionContent(category) %}
+    {% for item in category.items %}
+    <a href="#" class="text-400"><p>{{ item.text }}</p></a>
+    {% endfor %}
+{% endmacro %}
+
 <header role="banner" class="menu">
     <div class="menu__bar">
-        
+        <!-- <button id="menu__toggle">toggle</button> -->
+        <div></div>
+        <div class="menu__logo">
+            <p class="text-800">Thayla</p>
+        </div>
+        <div class="menu__search">
+            <img src="https://icongr.am/fontawesome/search.svg?size=148&color=currentColor" alt="">
+        </div>
     </div>
     <div class="menu__main">
+        <nav class="nav menu__nav">
+            <ul class="nav-list nav__list">
+                {% for category in navigation.categories %}
+                <li class="nav-item nav-list__item">
+                    <div class="nav-item__accordion">
+                        {{ accordion(category.text, accordionContent(category)) }}
+                    </div>        
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
     </div>
 </header>

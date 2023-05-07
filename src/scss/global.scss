@@ -5,9 +5,14 @@
 @import '../../node_modules/gorko/gorko.scss';
 
 // global css
+@font-face {
+    font-family: vineritic;
+    src: url(../fonts/VINERITC.TTF);
+}
 
 // Import blocks 
 @import 'blocks/site-head.scss';
+@import 'blocks/page-header.scss';
 
 // Import utilities
 @import 'utilities/flow';

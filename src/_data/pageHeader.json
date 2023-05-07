@@ -1,0 +1,28 @@
+{
+    "carousels":[
+        [
+            "/images/bags/1.jpeg",
+            "/images/wallets/1.jpeg",
+            "/images/belts/1.jpeg",
+            "/images/lifestyleEssentials/1.jpeg"
+        ],
+        [
+            "/images/bags/2.jpeg",
+            "/images/wallets/2.jpeg",
+            "/images/belts/2.jpeg",
+            "/images/lifestyleEssentials/2.jpeg"
+        ],
+        [
+            "/images/bags/3.jpg",
+            "/images/wallets/3.jpeg",
+            "/images/belts/3.jpeg",
+            "/images/lifestyleEssentials/3.jpeg"
+        ],
+        [
+            "/images/bags/4.jpeg",
+            "/images/wallets/4.jpeg",
+            "/images/belts/4.jpeg",
+            "/images/lifestyleEssentials/4.jpeg"
+        ]
+    ]
+}
