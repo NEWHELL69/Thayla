@@ -52,6 +52,20 @@ $menu-main-basis: 3rem;
         width: 30px;
       }
     }
+
+    #menu__placeholder {
+      @include media-query("max-md") {
+        display: none;
+      }
+    }
+
+    #menu__toggle {
+
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
   }
 
   &__main {

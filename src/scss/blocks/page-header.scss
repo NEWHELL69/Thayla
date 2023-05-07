@@ -104,6 +104,7 @@
 
         .carousel2{
             flex-grow: 3;
+
             @include media-query('max-md') {
                 display: none;
             }
@@ -112,7 +113,7 @@
         .carousel3 {
             flex-grow: 2;
 
-            @include media-query('max-lg') {
+            @include media-query('max-md') {
                 display: none;
             }
         }
